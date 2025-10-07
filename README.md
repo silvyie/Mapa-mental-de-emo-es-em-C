@@ -6,8 +6,7 @@ As funcionalidades são:
 - Ordenar (Por data ou intensidade).
 - Sair do programa de emoções.
 
-Estrutura para armazenar as emoções: Lista encadeada.
-Cada elemento da lista é um emoção =
+Cada elemento da lista é um emoção:
 - Emoção: String
 - Data: String
 - Tipo: String
