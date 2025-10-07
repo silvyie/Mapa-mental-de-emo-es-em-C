@@ -1,0 +1,1 @@
+# Mapa-mental-de-emo-es-em-C
