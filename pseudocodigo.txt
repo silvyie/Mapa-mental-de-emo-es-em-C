@@ -1,1 +1,38 @@
+Inicio
 
+Enquando o usuário não digitar "Sair", faça:
+
+  Menu principal:
+    Opções:
+      1 - Armazenar/Inserir emoção
+      2 - Listar emoções
+      3 - Buscar emoção
+      4 - Ordenar emoções por intensidade
+      5 - Sair do Mapa de emoções
+ 
+  Ler opção escolhida.
+  
+  Se for ecolhido a opção 1:
+     Digitar Tipo de emoção (String)
+     Digitar a data (String formato dd/mm/aaaa)
+     Digitar intensidade (Número)
+     Digitar um comentário (String)
+
+     Armazena no vetor.
+
+  Se for escolhido a opção 2:
+     Exibir as emoções mostrando o tipo, data, intensidade e comentário.
+
+  Se for escolhido a opção 3:
+     Digite o tipo da emoção que deseja buscar.
+      Buscar emoções do tipo digitado.
+      Exibir lista de emoções desse tipo, com data, intensidade e comentário.
+
+  Se for escolhido a opção 4:
+     Ordenar as emoções por intensidade (Usando Bubble Sort).
+      Exibir a lista ordenada por intensidade.
+
+  Se for escolhido a opção 5:
+     Mostrar a mensagem: "O mapa está encerrando."
+     Encerra o programa.
+Fim
