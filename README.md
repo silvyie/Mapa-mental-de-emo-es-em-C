@@ -8,11 +8,11 @@ As funcionalidades são:
 
 Estrutura para armazenar as emoções: Lista encadeada.
 Cada elemento da lista é um emoção =
-Emoção: String
-Data: String
-Tipo: String
-Intensidade: Número (inteiro)
-Comentário String
+- Emoção: String
+- Data: String
+- Tipo: String
+- Intensidade: Número (inteiro)
+- Comentário String
 
 Estruturas e Algoritmos de Ordenação que serão usados nesse momento inicial:
 - Armazenar emoções: Vetores
