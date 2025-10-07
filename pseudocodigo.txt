@@ -1,4 +1,4 @@
-### PRÉ PSEUDOCÓDIGO 
+### PRÉ PSEUDOCÓDIGO ###
 
 Inicio
 
@@ -41,7 +41,7 @@ Enquando o usuário não digitar "Sair", faça:
  Fim Enquanto
 Fim
 
-### PSEUDICÓDIGO
+### PSEUDICÓDIGO ###
 
 INICIO 
 
