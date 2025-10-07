@@ -1,3 +1,5 @@
+### PRÉ PSEUDOCÓDIGO 
+
 Inicio
 
 Enquando o usuário não digitar "Sair", faça:
@@ -35,4 +37,68 @@ Enquando o usuário não digitar "Sair", faça:
   Se for escolhido a opção 5:
      Mostrar a mensagem: "O mapa está encerrando."
      Encerra o programa.
+
+ Fim Enquanto
 Fim
+
+### PSEUDICÓDIGO
+
+INICIO 
+
+ENQUANTO o usuário não escolher SAIR:
+   Motrar menu principal:
+      1 - Armazenar/Inserir emoção
+      2 - Listar emoções
+      3 - Buscar emoção
+      4 - Ordenar emoções por intensidade
+      5 - Sair do Mapa de emoções
+ 
+  Ler opção escolhida.
+
+  SE opção == 1 ENTÃO:
+    Chamar função InserirEmocao
+  SENÃO SE opção == 2 ENTÃO:
+    Chamar função ListarEmocao
+  SENÃO SE opção == 3 ENTÃO:
+    Chamar função BuscarEmocao
+  SENÃO SE opção == 4 ENTÃO:
+    Chamar função OrdenaEmocao
+  SENÃO SE opção == 5 ENTÃO:
+    Mostar mensagem de Encerrar
+  FIMSE
+    opção inválida
+
+FIM ENQUANTO
+
+FIM
+
+FUNÇÃO InserirEmocao
+   Ler Tipo
+   Ler Data
+   Ler intensidade
+   Ler Comentário
+   Armazenar nova emoção no vetor
+FIMFUNÇÃO
+
+FUNÇÃO ListarEmocao
+   PARA cada emoção no vetor
+     Mostrar Tipo, Data, Intensidade, Comentário
+   FIMPARA
+FIMFUNÇÃO
+
+FUNÇÃO BuscarEmocao
+   Ler Tipo procurado
+     PARA cada emoção do vetor
+       SE emoção.Tipo == Tipo procurado ENTÃO
+         Mostrar Tipo, Data, Itensidade, Comentário
+       FIMSE
+     FIMPARA
+FIMFUNÇÃO
+
+FUNÇÃO OrdenarEmocao
+    Aplicar Bubble Sort no Vetor usando Intensidade como chave
+FIMFUNÇÃO
+
+FUNÇÃO Sair
+     Mostrar mensagem de encerramento do programa
+FIMFUNÇÃO
