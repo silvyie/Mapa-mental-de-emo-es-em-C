@@ -1,4 +1,4 @@
-### Esse programa tem como objetivo registrar e visualizar emoções diáris.
+### Esse programa tem como objetivo registrar e visualizar emoções diárias.
 As funcionalidades são:
 - Registrar a emoção do dia (data + tipo + intensidade + comentário).
 - Listar todas as emoções registradas.
