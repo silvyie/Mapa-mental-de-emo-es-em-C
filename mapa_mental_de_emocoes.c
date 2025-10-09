@@ -13,7 +13,7 @@ typedef struct emocao{
 
 Emocao *vetor_emocoes = malloc(sizeof(Emocao) * 10000); 
 
-int indice_de_controle = 0; 
+int atual = 0; 
 
 void inserirEmocao(Emocao nova_emocao, Emocao vetor_emocoes[], int *atual){
     vetor_emocoes[*atual] = nova_emocao;
