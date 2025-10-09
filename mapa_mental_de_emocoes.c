@@ -11,11 +11,18 @@ typedef struct emocao{
     char comentario[TAM];
 } Emocao;
 
-Emocao *vetor_emocoes = malloc(sizeof(Emocao) * 10000); 
-
-int atual = 0; 
 
 void inserirEmocao(Emocao nova_emocao, Emocao vetor_emocoes[], int *atual){
     vetor_emocoes[*atual] = nova_emocao;
     (*atual)++;
+}
+
+int main(){
+    int atual = 0; 
+
+    Emocao *vetor_emocoes = malloc(sizeof(Emocao) * 10000); 
+    if(vetor_emocoes == NULL){
+        printf("Erro ao alocar vetor de emocoes\n");
+        return 1;
+    }
 }
