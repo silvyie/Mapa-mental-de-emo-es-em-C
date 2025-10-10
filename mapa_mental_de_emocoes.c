@@ -17,6 +17,17 @@ void inserirEmocao(Emocao nova_emocao, Emocao vetor_emocoes[], int *atual){
     (*atual)++;
 }
 
+void listarEmocao(Emocao vetor_emocoes[], int *atual){
+    printf("=== Lista de emocoes === \n");
+    for(int i = 0; i < *atual; i++){
+        printf("Tipo: %s,\n Data: %s,\n Intensidade: %d,\n Comentario: %s\n\n", 
+            vetor_emocoes[i].tipo, 
+            vetor_emocoes[i].data, 
+            vetor_emocoes[i].intensidade, 
+            vetor_emocoes[i].comentario);
+    }
+}
+
 int main(){
     int atual = 0; 
 
